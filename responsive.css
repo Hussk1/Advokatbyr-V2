@@ -1,0 +1,591 @@
+/* ==================== Essentionals ==================== */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        /* Adjust max width for medium-large screens */
+        width: 95%;
+        /* Increase width percentage for medium-large screens */
+    }
+
+    .btn {
+        padding: 18px 36px;
+        /* Adjust padding for medium-large screens */
+        font-size: 0.9rem;
+        /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 800px;
+        /* Adjust max width for tablets */
+        width: 95%;
+        /* Increase width percentage for tablets */
+    }
+
+    .btn {
+        padding: 15px 30px;
+        /* Adjust padding for tablets */
+        font-size: 0.85rem;
+        /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        /* Adjust max width for smaller tablets and large phones */
+        width: 95%;
+        /* Increase width percentage for smaller tablets and large phones */
+    }
+
+    .btn {
+        padding: 12px 25px;
+        /* Adjust padding for smaller tablets and large phones */
+        font-size: 0.8rem;
+        /* Smaller font size for smaller tablets and large phones */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        /* Full width for small phones */
+        width: 100%;
+        /* Full width for small phones */
+        padding: 0 10px;
+        /* Less padding for small screens */
+    }
+
+    .btn {
+        padding: 10px 20px;
+        /* Adjust padding for small phones */
+        font-size: 0.75rem;
+        /* Even smaller font size for small phones */
+    }
+}
+
+/* ==================== Navbar ==================== */
+
+@media (max-width: 1200px) {
+    .burger {
+        width: 1.4rem;
+        height: 1rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.4rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.2rem;
+    }
+
+    .menu-link {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .menu {
+        padding: 3rem 0 2rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .menu-link {
+        font-size: 0.75rem;
+    }
+}
+
+/* ==================== Hero ==================== */
+
+/* Desktop and Large Screens */
+@media (max-width: 1200px) {
+    .hero-title {
+        margin-bottom: 100px; /* Adjust spacing */
+    }
+    .hero-service {
+        margin: 0 30px; /* Reduce margins */
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 1.8rem; /* Font size slightly reduced */
+        margin-bottom: 80px; /* Adjust spacing */
+    }
+    .hero-service {
+        display: none;
+    }
+    .hero-service-card {
+        width: 250px; /* Adjust card width */
+        height: 130px; /* Adjust card height */
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.5rem; /* Smaller font size for tablets */
+        margin-bottom: 60px; /* Adjust spacing */
+    }
+    .hero-service-card {
+        width: 90%; /* Full width with slight margin */
+        margin: 15px 0; /* Spacing between stacked cards */
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 1.2rem; /* Further reduce font size */
+        margin-bottom: 40px; /* Adjust spacing */
+    }
+    .hero-service-card {
+        width: 100%; /* Cards take full width */
+        height: 120px; /* Adjust height */
+        margin: 10px 0; /* Add vertical spacing */
+    }
+    .hero-service {
+        padding: 0 10px; /* Reduce side padding */
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 1rem; /* Even smaller font size for very small screens */
+        margin-bottom: 30px;
+    }
+    .hero-service-card {
+        font-size: 0.8rem; /* Smaller text in cards */
+        padding: 15px; /* Reduce padding inside the card */
+        height: 100px; /* Adjust height */
+    }
+}
+
+/* ==================== About ==================== */
+
+@media (max-width: 1200px) {
+    .about-title p {
+        max-width: 90%;            /* Wider for smaller screens */
+    }
+
+    .about-box {
+        max-width: 90%;            /* Wider box */
+    }
+}
+
+@media (max-width: 992px) {
+    .about-title h1 {
+        font-size: 2rem;           /* Adjust title size */
+    }
+
+    .about-item {
+        flex: 0 1 calc(50% - 10px); /* Two columns */
+    }
+
+    .about-img img{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+        padding: 60px 0;           /* Reduce padding */
+    }
+
+    .about-title h1 {
+        font-size: 1.5rem;         /* Smaller title */
+    }
+
+    .about-title p {
+        max-width: 100%;           /* Full width paragraph */
+        font-size: 0.9rem;         /* Smaller font */
+    }
+
+    .about-item {
+        flex: 1 1 100%;            /* Stack items vertically */
+    }
+
+    .about-item h3 {
+        font-size: 1.2rem;         /* Smaller heading */
+    }
+
+    .about-item p {
+        font-size: 0.9rem;         /* Smaller paragraph */
+    }
+
+    .about-img img {
+        max-width: 90%;            /* Allow for more width on smaller screens */
+    }
+}
+
+/* ==================== Service ==================== */
+
+@media (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adapt to smaller screens */
+    }
+
+    .grid-item h3 {
+        font-size: 20px; /* Adjust heading font size */
+    }
+
+    .grid-item p {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+
+    .text-box h1 {
+        font-size: 20px; /* Adjust title size */
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack items vertically */
+    }
+
+    .grid-item.center {
+        display: none;
+    }
+
+    .grid-item.center.top {
+        display: contents;
+    }
+
+    .grid-item {
+        margin-bottom: 20px; /* Space between stacked items */
+    }
+
+    .text-box h1 {
+        font-size: 40px; /* Adjust title size */
+    }
+
+    .text-box p {
+        font-size: 18px; /* Adjust paragraph size */
+    }
+}
+
+@media (max-width: 576px) {
+    .text-box h1 {
+        font-size: 24px; /* Further adjust title size */
+    }
+
+    .text-box p {
+        font-size: 16px; /* Further adjust paragraph size */
+    }
+}
+
+/* ==================== Stats ==================== */
+
+@media (max-width: 1200px) {
+    .stats-content {
+        flex-direction: column; /* Stack items vertically on larger tablets */
+        align-items: center; /* Center items */
+    }
+
+    .stats-items::after {
+        display: none; /* Hide the separator for the last item */
+    }
+
+    .stats {
+        height: auto; /* Allow height to adjust for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .stats-items {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+
+    .stats-content {
+        justify-content: center; /* Center items on very small screens */
+        text-align: center; /* Center text alignment for smaller screens */
+    }
+}
+
+/* ==================== Team ==================== */
+@media (max-width: 768px) {
+    .team-card {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-title h1 {
+        font-size: 2rem; /* Smaller font size for title */
+    }
+
+    .team-title p {
+        font-size: 1rem; /* Smaller font size for paragraph */
+    }
+
+    .team-cards {
+        margin: 10px; /* Reduced margin for smaller screens */
+        padding: 15px; /* Reduced padding */
+    }
+}
+
+/* ==================== Contact ==================== */
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 100px;
+        /* Adjust padding for medium screens */
+    }
+
+    .contact .container {
+        padding: 80px;
+        /* Adjust padding inside the container */
+    }
+}
+
+@media (max-width: 992px) {
+    .contact {
+        padding: 80px;
+        /* Adjust padding for tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        /* Adjust spacing between fields */
+    }
+
+    .contact-top h1 {
+        font-size: 2.2rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact-top p {
+        font-size: 1rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact .container {
+        padding: 100px;
+    }
+
+    .contact-top h1 {
+        font-size: 1.8rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact .container {
+        padding: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 60px;
+        /* Adjust padding for smaller tablets and large phones */
+    }
+
+    .contact .container {
+        padding: 40px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        /* Smaller font size for form inputs */
+    }
+
+    .contact-top h1 {
+        font-size: 1.6rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.85rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 40px;
+        /* Adjust padding for small screens */
+    }
+
+    .contact .container {
+        padding: 20px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 12px;
+        /* Smaller font size for very small screens */
+        padding: 12px;
+        /* Adjust padding inside form inputs */
+    }
+
+    button {
+        padding: 8px 16px;
+        /* Adjust button size for small screens */
+        font-size: 14px;
+        /* Adjust font size for button text */
+    }
+
+    .contact-top h1 {
+        font-size: 1.4rem;
+        /* Smaller font size for phones */
+    }
+
+    .contact-top p {
+        font-size: 0.75rem;
+        /* Smaller font size for phones */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on small screens */
+        gap: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+/* ==================== Footer ==================== */
+
+@media only screen and (max-width: 990px) and (min-width: 200px) {
+    .footer .inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .start-learning {
+        position: unset;
+    }
+
+    .footer-start {
+        width: 100%;
+        display: block;
+        padding: 30px 20px;
+        margin: 30px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-sub-heading {
+        font-size: 18px;
+    }
+
+    footer.footer {
+        padding-top: 0;
+    }
+
+    a.button {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .column.is-logo {
+        order: 4;
+    }
+}
+
+/* ==================== Back to top btn ==================== */
+
+@media (max-width: 1024px) {
+    #topBtn {
+        padding: 12px;
+        font-size: 1rem;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #topBtn {
+        padding: 10px;
+        font-size: 0.9rem;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    #scrollProgress {
+        height: 4px;
+    }
+}
+
+@media (max-width: 576px) {
+    #topBtn {
+        padding: 8px;
+        font-size: 0.8rem;
+        right: 5px;
+        bottom: 5px;
+    }
+
+    #scrollProgress {
+        height: 3px;
+    }
+}
